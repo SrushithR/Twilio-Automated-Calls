@@ -2,8 +2,8 @@
 from twilio.rest import Client
 
 # Your Account Sid and Auth Token from twilio.com/user/account
-account_sid = "AC5ed8a0e4dfb2e39869e6b11d8e4d445a"
-auth_token = "ef651e0abc62c191220ff93d214caeb3"
+account_sid = "AC5*******************811d8e4d445a"
+auth_token = "ef65********************aeb3"
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
