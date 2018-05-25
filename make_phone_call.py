@@ -7,9 +7,12 @@ auth_token = "ef65********************aeb3"
 client = Client(account_sid, auth_token)
 
 call = client.calls.create(
+    # the verified number to which you wanna call
     to="+918686519259",
+    # the number that you just purchased on Twilio
     from_="+18034087781",
+    # the invoke URL from API Gateway
     url="https://lskcr****.execute-api.us-east-1.amazonaws.com/dev/twilio"
 )
-
+# An SID is generated for every call. It is useful for debugging
 print(call.sid)
