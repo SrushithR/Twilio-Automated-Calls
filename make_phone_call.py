@@ -9,7 +9,7 @@ client = Client(account_sid, auth_token)
 call = client.calls.create(
     to="+918686519259",
     from_="+18034087781",
-    url="https://lskcrt3x37.execute-api.us-east-1.amazonaws.com/dev/twilio"
+    url="https://lskcr****.execute-api.us-east-1.amazonaws.com/dev/twilio"
 )
 
 print(call.sid)
